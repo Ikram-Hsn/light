@@ -12,7 +12,7 @@ const Light =() =>{
     }
     return <div className='mt-[200px] ml-[40px] sm:mt-24 sm:ml-[450px]'>
          <img style={{display : index === false ?  "block":"none"}} className='w-[250px] h-[250px] ml-7 ' src={img1} alt="" />
-         <img  style={{display : index === true ?  "block":"none"}}className='w-[250px] h-[250px]  ' src={img2} alt="" />
+         <img  style={{display : index === true ?  "block":"none"}}className='w-[250px] h-[250px] ml-7  ' src={img2} alt="" />
 
          <div>
          <button onClick = {handleRed}className='bg-red-600 text-white font-bold px-10 py-2 rounded-lg mt-5 ml-12'>on</button>
