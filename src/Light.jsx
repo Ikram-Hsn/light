@@ -10,7 +10,7 @@ const Light =() =>{
     const handleBlue = () =>{
         setIndex(false)
     }
-    return <div className='mt-[100px] ml-[40px] sm:mt-24 sm:ml-[450px]'>
+    return <div className='mt-[200px] ml-[40px] sm:mt-24 sm:ml-[450px]'>
          <img style={{display : index === false ?  "block":"none"}} className='w-[250px] h-[250px] ml-7 ' src={img1} alt="" />
          <img  style={{display : index === true ?  "block":"none"}}className='w-[250px] h-[250px]  ' src={img2} alt="" />
 
